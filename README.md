@@ -107,27 +107,4 @@ internshala/
 
 ---
 
-## 📋 Copy-Paste Internshala Submission Text
 
-```markdown
-Hi Team,
-
-I saw your vision to build India’s largest technology ecosystem for architects, interior designers, and allied businesses. To demonstrate my execution ability, I engineered **ARCHISPEC Studio**, an interactive, production-grade application addressing the exact product and engineering challenges in your prompt:
-
-1. The Problem:
-Interior designers and architects spend 15+ hours per project cross-referencing vendor catalogs, manually calculating Bills of Quantities (BOQ), and creating duplicate client presentations to hide sensitive contractor markups.
-
-2. How I Solved It:
-• Tauri v2 (Rust + React/TS): Built a cross-platform desktop architecture with Rust command bridges (#[tauri::command]) for native file I/O and low-memory asset caching.
-• AI Agent Workflows: Designed an autonomous 4-stage agent pipeline (Intent Decomposition -> Material Sourcing -> Rate Card Matching -> Dynamic State Injection) that generates verified architectural specifications.
-• Database & Financial Aggregation: Engineered sub-50ms reactive calculations for material costs, contractor labor, statutory GST (18%), and agency margins.
-• Security & RBAC: Implemented a 4-tier Role-Based Access Control system (Principal Architect vs. Junior Drafter vs. Allied Contractor vs. Client) where internal profit margins and trade negotiations are securely masked for external stakeholders.
-• Voice Command Triggers: Integrated a hands-free voice action dispatcher via the Web Speech API for on-site inspections ("Switch to Client", "Go to Kitchen", "Export BOQ").
-• Performance Proof: Lightweight bundle (~97KB gzipped), 60 FPS fluid UI, and verified sub-second response times.
-
-Repository & Live Demo:
-• GitHub / Codebase: [Insert your GitHub URL]
-• Live Application: [Insert your Vercel/Netlify URL]
-
-Looking forward to discussing how I can help build and scale the core architecture platform!
-```
