@@ -25,6 +25,19 @@ app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => {
+  res.json({
+    message: '🚀 ARCHISPEC Studio MERN Backend API is Live!',
+    status: 'online',
+    ecosystem: 'Architecture & Interior Design Tech Platform',
+    endpoints: {
+      health: '/api/health',
+      boq_aggregate: '/api/boq/aggregate',
+      materials: '/api/materials'
+    }
+  });
+});
+
 app.use('/api/materials', materialRoutes);
 app.use('/api/boq', boqRoutes);
 

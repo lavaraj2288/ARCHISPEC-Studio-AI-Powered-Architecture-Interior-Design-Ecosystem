@@ -1,6 +1,9 @@
 import { MaterialItem, BOQSummary } from '../types';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost' 
+    ? 'http://localhost:5000/api' 
+    : 'https://archispec-api.onrender.com/api');
 
 export interface HealthStatus {
   online: boolean;
